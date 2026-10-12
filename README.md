@@ -1,20 +1,22 @@
 # Alephink Downloads
 
-Alephink 是 Vellumloop 旗下的 macOS 长篇小说工作空间。它面向长篇创作、章节工程、故事圣经、研究材料、记忆增量、备份、导出，以及始终可审阅的 AI 候选稿。
+Alephink 是 Vellumloop 旗下的 macOS 长篇小说工作空间，围绕手稿、记忆、研究和可审阅的 AI 写作协作。
 
-This public repository only hosts Alephink macOS downloads. The application source code is private.
+本仓库仅保留历史发布记录；当前安装包由 Cloudflare R2 分发，应用源码仍在私有仓库。旧 GitHub Releases 中的 4.8.x 文件是历史包，不代表当前版本。
+
+This repository preserves historical release records. Current downloads are distributed through Cloudflare R2; the application source remains private. The older 4.8.x GitHub assets are historical, not the current release.
 
 ## 下载
 
-请从 Releases 下载最新版 DMG：
+当前版本：**Alephink 1.6.16（build 40996）**，Apple Silicon，macOS 15 或更新版本。
 
-https://github.com/JunZhaoNathan/alephink-downloads/releases/latest
+官方下载：[Alephink 1.6.16 公证版 DMG](https://downloads.vellumloop.com/alephink/Alephink-1.6.16-macOS-arm64.dmg)
 
-下载文件通常名为：
+自动更新与最新版信息：[发布清单](https://downloads.vellumloop.com/alephink/latest/release.json) · [Alephink 官网](https://alephink.vellumloop.com)
 
-```text
-Alephink-版本号-macOS-arm64.dmg
-```
+SHA-256：`a83ea2ee7146fe94165987d4304e6f54dcabf2cbe93e3f2025063d94b6beb605`
+
+本版恢复顶部全局导航，左栏专注 Binder，并修复从 AI 返回资料库时右侧资料面板未打开的问题。DMG 已经 Apple 公证。
 
 ## 安装
 
@@ -50,7 +52,7 @@ https://alephink.vellumloop.com
 
 ## 更新
 
-发布新版本时，本仓库的 Releases 会更新。下载新版 DMG 后，重新把新的 `Alephink.app` 拖入 `Applications / 应用程序` 替换旧版本即可。
+新版本以 [R2 发布清单](https://downloads.vellumloop.com/alephink/latest/release.json) 为准，不再向 GitHub Releases 上传 DMG。下载新版 DMG 后，重新把新的 `Alephink.app` 拖入 `Applications / 应用程序` 替换旧版本即可。
 
 原来的激活码通常可以继续使用，只要它没有过期，并且仍在同一台机器上使用。
 
@@ -58,9 +60,9 @@ https://alephink.vellumloop.com
 
 Alephink is a long-form fiction workspace for macOS. It is designed for manuscript structure, chapters, story bible work, research material, memory updates, backups, export, and reviewable AI draft candidates.
 
-Download the latest macOS DMG from:
+Current release: **Alephink 1.6.16 (build 40996)** for Apple Silicon and macOS 15 or later. Download the notarized DMG from:
 
-https://github.com/JunZhaoNathan/alephink-downloads/releases/latest
+https://downloads.vellumloop.com/alephink/Alephink-1.6.16-macOS-arm64.dmg
 
 To install, open the DMG, drag `Alephink.app` into `Applications`, and launch it from there. If macOS blocks the first launch, open `System Settings -> Privacy & Security` and allow the app, or right-click the app and choose `Open`.
 
